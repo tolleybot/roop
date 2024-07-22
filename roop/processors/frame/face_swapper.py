@@ -35,7 +35,7 @@ def clear_face_swapper() -> None:
 def pre_check() -> bool:
     return True # model no longer exists in huggingface
     download_directory_path = resolve_relative_path('../models')
-    conditional_download(download_directory_path, ['https://huggingface.co/deepinsight/inswapper/resolve/main/inswapper_128.onnx'])
+    conditional_download(download_directory_path, ['https://huggingface.co/CountFloyd/deepfake/resolve/main/inswapper_128.onnx'])
     return True
 
 
